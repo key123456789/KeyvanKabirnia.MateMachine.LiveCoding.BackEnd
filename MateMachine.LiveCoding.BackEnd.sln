@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MateMachine.LiveCoding.BackEnd.Api", "MateMachine.LiveCoding.BackEnd.Api\MateMachine.LiveCoding.BackEnd.Api.csproj", "{FDC2074A-ED1B-47CC-8896-5F511282E81B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MateMachine.LiveCoding.BackEnd.Console", "src\MateMachine.LiveCoding.BackEnd.Console\MateMachine.LiveCoding.BackEnd.Console.csproj", "{2FD28B5A-B84B-4913-AF37-DE474977DF1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A4A1174C-9FC7-49B3-81A1-44A4C8D7F95C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MateMachine.LiveCoding.BackEnd.UnitTests", "tests\MateMachine.LiveCoding.BackEnd.UnitTests\MateMachine.LiveCoding.BackEnd.UnitTests.csproj", "{A41B8B1B-4239-4FDB-8E05-4C211E80167E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MateMachine.LiveCoding.BackEnd.Api.Tests", "MateMachine.LiveCoding.BackEnd.Api.Tests\MateMachine.LiveCoding.BackEnd.Api.Tests.csproj", "{5676F58E-D9FC-49FE-85D7-6EF30D549D73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDC2074A-ED1B-47CC-8896-5F511282E81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC2074A-ED1B-47CC-8896-5F511282E81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC2074A-ED1B-47CC-8896-5F511282E81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC2074A-ED1B-47CC-8896-5F511282E81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD28B5A-B84B-4913-AF37-DE474977DF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD28B5A-B84B-4913-AF37-DE474977DF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD28B5A-B84B-4913-AF37-DE474977DF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD28B5A-B84B-4913-AF37-DE474977DF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41B8B1B-4239-4FDB-8E05-4C211E80167E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41B8B1B-4239-4FDB-8E05-4C211E80167E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41B8B1B-4239-4FDB-8E05-4C211E80167E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41B8B1B-4239-4FDB-8E05-4C211E80167E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5676F58E-D9FC-49FE-85D7-6EF30D549D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5676F58E-D9FC-49FE-85D7-6EF30D549D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5676F58E-D9FC-49FE-85D7-6EF30D549D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5676F58E-D9FC-49FE-85D7-6EF30D549D73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A41B8B1B-4239-4FDB-8E05-4C211E80167E} = {A4A1174C-9FC7-49B3-81A1-44A4C8D7F95C}
+		{5676F58E-D9FC-49FE-85D7-6EF30D549D73} = {A4A1174C-9FC7-49B3-81A1-44A4C8D7F95C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6C5E40F-63FB-4E8C-8D05-3A5315EC0355}
+	EndGlobalSection
+EndGlobal
